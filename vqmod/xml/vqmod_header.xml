@@ -10,7 +10,7 @@
 		  echo $language;
 		 ]]></search>
 		 <add><![CDATA[	
-		
+		<?php echo $d_social_login;?>
 		 ]]></add>
 		 </operation>
 	 </file>
