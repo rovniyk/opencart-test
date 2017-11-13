@@ -1,0 +1,21 @@
+# Packages #
+############
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#Folders
+############
+nbproject
+image
+Task
+cache
+logs
+system/log
+system/cache
+
+#Files
+config.php
+admin/config.php

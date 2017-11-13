@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	 <id>Replace the social module  in header</id>
+	 <version>1.0</version>
+	 <vqmver>2.X</vqmver>
+	 <author>krovniy</author>
+	 <file name="catalog/view/theme/default/template/common/header.tpl">
+		 <operation info="Add module to the header">
+		 <search position="after"><![CDATA[
+		  echo $language;
+		 ]]></search>
+		 <add><![CDATA[	
+		<?php echo $d_social_login;?>	
+		 ]]></add>
+		 </operation>
+	 </file>
+</modification>
+
