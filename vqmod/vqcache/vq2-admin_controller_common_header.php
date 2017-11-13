@@ -1,7 +1,7 @@
 <?php
 class ControllerCommonHeader extends Controller {
 	public function index() {
-
+			if (isset($this->request->get['token']))
 			$data['d_shopunity'] = $this->url->link('d_shopunity/extension', 'token='.$this->request->get['token'], 'SSL');
 			
 		$data['title'] = $this->document->getTitle();
